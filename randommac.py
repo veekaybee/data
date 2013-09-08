@@ -1,6 +1,6 @@
 import random
 
-# The first line is defined for specified vendor
+# Generating three four groups of two random number/letter combinations
 mac = [ 0x00, 0x24, 0x81,
     random.randint(0x00, 0x7f),
     random.randint(0x00, 0xff),
