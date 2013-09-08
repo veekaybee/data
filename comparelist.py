@@ -4,11 +4,11 @@
 #opens first file to compare
 with open("file1.txt") as file1list:
         file1l = file1list.read().splitlines()
-       
+        
 #opens second file to compare
 with open("file2.txt") as file2list:
         file21 = file2list.read().splitlines()
-       
+        
 #assigns files to sets
 set1=file1l
 set2=file2l
