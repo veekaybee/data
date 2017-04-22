@@ -7,7 +7,7 @@ import math
 # SUPPORTED CONFIDENCE LEVELS: 50%, 68%, 90%, 95%, and 99%
 confidence_level_constant = [50,.67], [68,.99], [90,1.64], [95,1.96], [99,2.57]
  
-# CALCUALTE THE SAMPLE SIZE
+# CALCULATE THE SAMPLE SIZE
 def sample_size(population_size, confidence_level, confidence_interval):
   Z = 0.0
   p = 0.5
